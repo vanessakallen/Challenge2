@@ -1,1 +1,1 @@
-# Challenge2
+Challenge 2: Sharing Docker image
