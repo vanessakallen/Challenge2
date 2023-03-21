@@ -1,0 +1,11 @@
+version: "3.8"
+
+services: 
+  api:
+    build: ./intro-to-react-follow-along-vanessakallen
+    container_name: docker-react_c
+    ports: 
+      - '3000:3000'
+    volumes: 
+      - ./intro-to-react-follow-along-vanessakallen:/app
+      - /app/node_modules
